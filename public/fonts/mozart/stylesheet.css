@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Wolfgang Amadeus Mozart';
+    src: url('WolfgangAmadeusMozart.eot');
+    src: local('Wolfgang Amadeus Mozart'), local('WolfgangAmadeusMozart'),
+        url('WolfgangAmadeusMozart.eot?#iefix') format('embedded-opentype'),
+        url('WolfgangAmadeusMozart.woff2') format('woff2'),
+        url('WolfgangAmadeusMozart.woff') format('woff'),
+        url('WolfgangAmadeusMozart.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

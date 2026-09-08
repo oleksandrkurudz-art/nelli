@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Build/cache artifacts
+.tmp/
+
+# Source photos — convert to webp in public/assets, don't commit originals
+public/assets/*.png
+!public/assets/avatar-*.png
+
+# Figma svg dumps, kept locally
+public/*.txt
+
+*.HEIC
+*.heic
+*.heif
+*.CR3
+*.cr3
+*.CR2
+*.cr2
+*.dng
+*.DNG
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+__MACOSX/
+._*
+
+.vercel
